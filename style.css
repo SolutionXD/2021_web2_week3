@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Oswald&family=Roboto&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-height: 100vh;
+    display: grid;
+    box-sizing: border-box;
+    place-items: center;
+}
+
+.main{
+    min-width: 100vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+.background{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+h1{
+    width: 100%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 5px;
+}
+
+#nowTime{
+    width: 100%;
+    position: absolute;
+    font-size: 9vw;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 25%;
+    letter-spacing: 5px;
+}
+
+p{
+    width: 100%;
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: "Noto Sans KR", sans-serif;
+    margin-top: 37.5%;
+}
